@@ -1,0 +1,144 @@
+html,
+body,
+header,
+.view {
+    height: 100%;
+}
+
+@media (max-width: 740px) {
+    html,
+    body,
+    header,
+    .view {
+        height: 100vh;
+    }
+}
+
+.top-nav-collapse {
+    background-color: #78909c !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+    background: transparent !important;
+}
+
+@media (max-width: 991px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #78909c !important;
+    }
+}
+
+.hr-light {
+    border-top: 3px solid #fff;
+    width: 80px;
+}
+
+.centro {
+    color: white;
+    padding-top: 150px;
+    letter-spacing: 5px; 
+}
+
+#cores {
+    padding-top: 50px;
+    text-align: center; 
+}
+
+
+.nomePaletas {
+    padding-top: 50px;
+    padding-left: 340px;
+}
+
+.paleta {
+    word-spacing: 15px; 
+    padding-bottom: 200px;
+    margin: 40px auto;
+    width: 500px;
+
+}
+
+.pale-item {
+  display:inline-block;
+  height: 200px;
+  margin-left: -10px;
+  position:relative;
+  width: 150px;
+}
+
+.pale-item:before {
+  content: "";
+  position:absolute;
+  top:0;
+  left:1;
+  height: 200px;
+  width: 150px;
+  z-index:10;
+}
+
+.pale-item:hover {
+  box-shadow: 1px 1px 5px rgba(0,0,0,.5);
+  transform: scale(2.5) rotateY(0);
+  z-index:1000;
+}
+
+.pale-item:hover::before {
+  background: rgba(0,0,0,0);
+  z-index: -10;
+} 
+
+#fontes{
+    padding-top: 50px;
+    text-align: center;  
+}
+
+.fonte {
+    padding-bottom: 200px;
+    padding-top: 50px;
+}
+
+.fonte1 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    text-align: center;
+}
+
+.fonte2 {
+    font-family: 'Pacifico', cursive;
+    font-size: 20px;
+}
+
+.fonte3 {
+    font-family: 'Trade Winds', cursive;
+    font-size: 20px;    
+}
+
+.catalogo1 {
+    border-style: solid;
+    border-radius: 2px;
+    padding-top: 70px;
+    padding-bottom: 120px;
+}
+
+#estilos{
+    padding-top: 50px;
+    text-align: center;
+}
+
+.estilo {
+    padding-bottom: 200px;
+    padding-top: 50px;
+}
+
+#rodape{
+    padding: 30px;
+    text-align: center;
+    text-decoration-color: white;
+}
+
+
+
+
+
+
+
